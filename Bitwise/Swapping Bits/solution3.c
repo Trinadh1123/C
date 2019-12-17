@@ -2,7 +2,7 @@
 
 /* Solution 3 for thr problem statement */
 
-#define swap_bits(number, source, destination ) ( number ^ ( ( 1 << ( source - 1 ) ) | ( 1 << ( destination - 1 ) ) ) )
+#define swap_bits(number, source, destination) ( number ^ ( ( 1 << ( source - 1 ) ) | ( 1 << ( destination - 1 ) ) ) )
 
 int main(void)
 {
